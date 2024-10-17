@@ -14,15 +14,15 @@ body {
   line-height: 125%;
   letter-spacing: -0.02em;
   text-transform: uppercase;
-  color: #fbfbfb; /* --main-text */
+  color: #141414; /* --text */
 
   background-color: #fbfbfb;
 
   /*
   min-width: 100vw;
   min-height: 100vh;
-  margin: 0;
   */
+  margin: 0;
 }
 
 h1 {
@@ -30,6 +30,7 @@ h1 {
   font-size: 48px;
   line-height: 100%;
   letter-spacing: -0.01em;
+  color: #fbfbfb;
 }
 
 h2 {
@@ -37,10 +38,12 @@ h2 {
   font-size: 28px;
   line-height: 100%;
   letter-spacing: -0.01em;
+  color: #fbfbfb;
 }
 
 h3 {
   font-weight: 600;
+  color: #fbfbfb;
 }
 
 button {
@@ -51,12 +54,11 @@ button {
   letter-spacing: -0.01em;
   text-transform: uppercase;
   text-align: center;
-  color: #fbfbfb;
+  color: #7a3145; /* --background-2 */
 
   border-radius: 30px;
-  padding: 16px 0; /* top right  bottom left  top right- повторюється у всьому макеті, bottom left - задавати власноруч */
+  padding: 16px 0; /* -по вертикалі-  -по горизонталі-,  по вертикалі - повторюється у всьому макеті, по горизонталі - задавати власноруч */
   background-color: #fbfbfb;
-  color: #7a3145; /* --background-2 */
   border: none;
   
   cursor: pointer;
