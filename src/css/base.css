@@ -30,7 +30,6 @@ h1 {
   font-size: 48px;
   line-height: 100%;
   letter-spacing: -0.01em;
-  color: #fbfbfb;
 }
 
 h2 {
@@ -38,12 +37,10 @@ h2 {
   font-size: 28px;
   line-height: 100%;
   letter-spacing: -0.01em;
-  color: #fbfbfb;
 }
 
 h3 {
   font-weight: 600;
-  color: #fbfbfb;
 }
 
 button {
@@ -76,6 +73,15 @@ button {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+.bg-violet {
+  background-color: #7a3145;
+  color: #fbfbfb;
+}
+.bg-green {
+  background-color: #576f35;
+  color: #fbfbfb;
+}
+
 
 /* Styles for Mobile devices */
 .header-base {
@@ -89,6 +95,12 @@ button {
 }
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 76px;
+  }
+  h2 {
+    font-size: 64px;
+  }
   .header-base {
     padding-top:32px;
   }
