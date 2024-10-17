@@ -24,4 +24,4 @@ dist-ssr
 *.sw?
 
 # Developers files
-requests_link.txt*
+src/requests_link.txt
