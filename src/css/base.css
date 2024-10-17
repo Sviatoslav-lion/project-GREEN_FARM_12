@@ -73,6 +73,15 @@ button {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+.bg-violet {
+  background-color: #7a3145;
+  color: #fbfbfb;
+}
+.bg-green {
+  background-color: #576f35;
+  color: #fbfbfb;
+}
+
 
 /* Styles for Mobile devices */
 .header-base {
