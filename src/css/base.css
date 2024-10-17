@@ -76,3 +76,32 @@ button {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
+/* Styles for Mobile devices */
+.header-base {
+  padding-top:20px;
+}
+.section-base {
+  padding: 80px 0;
+}
+.footer-base {
+  padding: 40px 0;
+}
+/* Styles for Tablet devices */
+@media only screen and (min-width: 768px) {
+  .header-base {
+    padding-top:32px;
+  }
+  .section-base {
+    padding: 100px 0;
+  }
+  .footer-base {
+    padding: 32px 0;
+  }
+}
+/* Styles for Desktop devices */
+@media only screen and (min-width: 1280px) {
+  .footer-base {
+    padding: 50px 0;
+  }
+}
