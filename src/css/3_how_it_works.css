@@ -1,0 +1,50 @@
+/* .how-it-works
+
+.how-it-works-conteiner
+
+.works-red
+
+.works-red-wrsp
+
+.works-red-image
+
+.how-image
+
+
+
+.works-green-list {
+ 
+} */
+
+.works-conteiner {
+padding: 80px 20px;
+}
+
+.works-title {
+    font-size: 28px;
+    line-height: 1;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #fbfbfb;
+    margin-bottom: 20px;
+    
+}
+
+.works-title span {
+    color: #fbfbfb59;
+}
+
+.works-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    color: #fbfbfb;
+    margin-bottom: 40px;
+    max-width: 335px;
+    text-transform: none;
+}
+
+/* --------ol---------- */
+.works-list {
+    max-width: 335px;
+}
