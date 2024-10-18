@@ -1,11 +1,22 @@
-.container {
+.your-order-container {
   background-color: #7a3145;
   padding: 80px 20px;
 }
 .order-title-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   margin-bottom: 40px;
+  width: 100%;
 }
 .order-section-title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.04167;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fbfbfb;
   margin-bottom: 32px;
 }
 .title-part {
@@ -19,8 +30,13 @@
   color: #fbfbfb;
 }
 .order-form-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   background-color: #fff;
-  padding: 40px;
+  padding: 40px 20px;
+  border-radius: 30px;
 }
 .order-form-text {
   font-weight: 600;
@@ -29,6 +45,7 @@
   letter-spacing: -0.01em;
   text-transform: uppercase;
   color: #141414;
+
   margin-bottom: 40px;
 }
 .violet-part {
@@ -37,9 +54,13 @@
 .green-part {
   color: #576f35;
 }
+.order-form {
+  width: 100%;
+}
 .order-form-input {
   border: 1px solid rgba(20, 20, 20, 0.2);
   border-radius: 30px;
+  width: 100%;
 }
 .order-form-input:focus {
   border: 1px solid #7a3145;
@@ -51,6 +72,7 @@
   border: 1px solid #3cbc81;
 }
 .order-comment {
+  width: 100%;
   border: 1px solid rgba(20, 20, 20, 0.2);
   border-radius: 15px;
   resize: none;
@@ -64,10 +86,12 @@
   letter-spacing: -0.01em;
   text-transform: uppercase;
   color: #fbfbfb;
+  width: 100%;
 }
 .order-social-net {
   background: #576f35;
   padding: 40px 20px;
+  border-radius: 30px;
 }
 .order-social-net-text {
   font-weight: 600;
