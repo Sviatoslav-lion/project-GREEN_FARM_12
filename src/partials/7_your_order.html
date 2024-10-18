@@ -10,48 +10,100 @@
         today and start enjoying the best that nature has to offer!
       </p>
     </div>
-    <div class="order-form-wrapper">
-      <p class="order-form-text">
-        Ordering <span class="violet-part">from us</span> is quick and easy!
-        Fill out <span class="green-part">the form</span> below and we will
-        contact you !
-      </p>
-      <form class="order-form" autocomplete="off">
-        <div>
-          <input
-            class="order-form-input"
-            type="text"
-            name="user-name"
-            placeholder="Full name"
-            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-            required
-          />
-        </div>
-        <div>
-          <input
-            class="order-form-input"
-            type="email"
-            name="user-email"
-            placeholder="Email"
-            pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
-            required
-          />
-        </div>
-        <div>
-          <textarea class="order-comment" type="text">Comment</textarea>
-        </div>
+    <div class="desktop-wrapper">
+      <div class="order-form-wrapper">
+        <p class="order-form-text">
+          Ordering <span class="violet-part">from us</span> is quick and easy!
+          Fill out <span class="green-part">the form</span> below and we will
+          contact you !
+        </p>
+        <form class="order-form" autocomplete="off">
+          <div>
+            <input
+              class="order-form-input"
+              type="text"
+              name="user-name"
+              id="user-name"
+              placeholder="Full name"
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+              required
+            />
+          </div>
+          <div>
+            <input
+              class="order-form-input"
+              type="email"
+              name="user-email"
+              id="user-email"
+              placeholder="Email"
+              pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})"
+              required
+            />
+          </div>
+          <div>
+            <textarea class="order-comment" id="user-comment">Comment</textarea>
+          </div>
 
-        <button class="order-btn" type="submit">SEND</button>
-      </form>
-    </div>
-    <div class="order-social-net">
-      <img src="" alt="" />
-      <p class="order-social-net-text">Follow us on our social networks:</p>
-      <ul class="order-social-net-text-list">
-        <li class="order-social-net-text-item" target="_blank">instagram /</li>
-        <li class="order-social-net-text-item" target="_blank">facebook /</li>
-        <li class="order-social-net-text-item" target="_blank">youtube</li>
-      </ul>
+          <button class="order-btn" type="submit">SEND</button>
+        </form>
+      </div>
+      <div class="order-social-net">
+        <picture>
+          <source
+            srcset="
+              /images/order/desktop-order.webp    1x,
+              /images/order/desktop-order@2x.webp 2x
+            "
+            media="(min-width: 1280px)"
+          />
+          <source
+            srcset="
+              /images/order/tablet-order.webp    1x,
+              /images/order/tablet-order@2x.webp 2x
+            "
+            media="(min-width:768px)"
+          />
+          <source
+            srcset="
+              /images/order/mobile-order.webp    1x,
+              /images/order/mobile-order@2x.webp 2x
+            "
+            media="(max-width: 767px)"
+          />
+          <img
+            class="your-order-img"
+            src="/images/mobile-order.webp"
+            alt="Cooking"
+          />
+        </picture>
+        <p class="order-social-net-text">Follow us on our social networks:</p>
+        <ul class="order-social-net-list">
+          <li class="order-social-net-item">
+            <a
+              class="order-social-net-link"
+              href="https://www.instagram.com/goitclub/ "
+              target="_blank"
+              >instagram /
+            </a>
+          </li>
+          <li class="order-social-net-item">
+            <a
+              class="order-social-net-link"
+              href="https://www.facebook.com/goITclub/"
+              target="_blank"
+              >facebook /
+            </a>
+          </li>
+          <li class="order-social-net-item">
+            <a
+              class="order-social-net-link"
+              href="https://www.youtube.com/c/GoIT"
+              target="_blank"
+              >youtube
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
 </section>
