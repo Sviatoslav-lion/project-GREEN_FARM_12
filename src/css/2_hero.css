@@ -1,0 +1,107 @@
+.section-base {
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 712px;
+
+}
+
+
+.hero-title {
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.hero-text {
+    font-size: 14px;
+    line-height: 1.29;
+
+}
+
+.image-content {
+    flex: 1;
+    background-repeat: no-repeat;
+    background-image: url(/images/hero/mobile-hero.webp), linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2));
+    max-width: 375px;
+    min-height: 370px;
+    background-position: center;
+    background-size: cover;
+    }
+
+@media screen and (min-resolution: 192dpi) {
+    .image-content {
+        background-image: url(/images/hero/mobile-hero@2x.webp),linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2));;
+        
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .section-base {
+        min-height: 768px;
+        gap: 50px;
+    }
+    .hero-title{
+        margin-bottom: 25px;
+    }
+
+    .image-content{
+        background-image: url(/images/hero/tablet-hero.webp),
+                linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2));
+        max-width: 768px;
+        min-height: 539px;
+    }
+}
+
+@media screen and (min-width: 768px) and (min-resolution: 192dpi) {
+    .image-content {
+        background-image: url(/images/hero/tablet-hero@2x.webp),
+            linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2));
+    }
+
+}
+
+@media screen and (min-width: 1158px) {
+    .section-base {
+        flex-direction: row;
+        min-height: 800px;
+        gap: 28px;
+        }
+
+    .hero-container {
+        
+        margin-top: 154px;
+        padding-right: 0;
+        margin-right: 0;
+        
+}
+.hero-title{
+    margin-bottom: 128px;
+}
+
+
+    .hero-title {
+        width: 502px;
+    }
+
+    .hero-text {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.25;
+        width: 472px;
+    }
+    .image-content{
+        background-image: url(/images/hero/desktop-hero.webp),
+                linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2));
+        max-width: 650px;
+        min-height: 800px;
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width: 1158px) and (min-resolution: 192dpi) {
+    .hero-container {
+        background-image: url(/images/hero/desktop-hero@2x.webp),
+            linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2));
+    }
+}
