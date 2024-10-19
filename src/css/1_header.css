@@ -7,9 +7,12 @@
   max-width: 375px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #576f35; /* -delete this row*/
   font-family: 'Inter Tight', sans-serif;
   color: #fbfbfb;
+  /* background-color: transparent; 
+  position: absolute;*/
+  background-color: #997000;
+  z-index: 999;
 }
 
 @media screen and (min-width: 768px) {
