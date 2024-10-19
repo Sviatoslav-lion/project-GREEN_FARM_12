@@ -1,0 +1,35 @@
+.advert {
+    text-transform: uppercase;
+}
+
+.advert-title-container {
+    border-radius: 12px;
+    padding: 8px 10px;
+    display: inline-block;
+}
+
+.advert-title {
+    font-size: 48px;
+    line-height: 1.04;
+}
+
+@media only screen and (min-width: 768px) {
+    .advert-title {
+        font-size: 64px;
+        line-height: 1.09;
+    }
+}
+
+@media only screen and (min-width: 1280px) {   
+    .advert-title-container {
+        display: inline;
+        padding: 0;
+    }
+
+    .advert-title {
+        font-size: 76px;
+        line-height: 1.05;
+        max-width: 1080px;
+        margin-bottom: 0;
+    }
+}
