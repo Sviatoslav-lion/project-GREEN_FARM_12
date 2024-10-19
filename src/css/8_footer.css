@@ -161,7 +161,6 @@ button {
   font-size: 14px;
   line-height: 129%;
   letter-spacing: -0.01em;
-  color: var(--main-text);
 }
 .policy-wrapper {
   display: flex;
@@ -169,7 +168,7 @@ button {
 }
 .policy-box {
   display: flex;
-  gap: 2px;
+  gap: 4px;
 }
 .wrapper-item {
   font-size: 12px;
@@ -220,6 +219,9 @@ button {
     gap: 25px;
     font-size: 18px;
     line-height: 111%;
+  }
+  .policy-box {
+    gap: 8px;
   }
   .wrapper-item {
     font-size: 18px;
