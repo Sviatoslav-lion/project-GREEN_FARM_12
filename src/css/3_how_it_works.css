@@ -1,44 +1,30 @@
 .how-works {
     padding-top: 0;
-    display: flex;
-    flex-direction: column;
 }
 
-
-
-/* 1 div photo */
 .works-red {
-    padding: 40px 0; 
+    padding: 40px 0;
     background: #7a3145;
     width: 100vw;
     margin-left: calc(-50vw + 50%);
 }
 
-.how-it-works-container {
-    width: 100%;
-}
-
-/* 2 div photo */
 .how-red-back {
     position: relative;
     width: calc(100% - 40px);
     margin: 0 auto;
     border-radius: 30px;
     overflow: hidden;
-    
 }
 
-/* photo */
 .works-red-image {
-    border-radius: 30px;
     max-width: 100%;
 }
 
-/* div 2/1 */
 .works-green-list {
-    padding-top: 80px; 
+    padding-top: 80px;
 }
-/* div2/2 */
+
 .works-container {
     margin: 0 auto;
     width: calc(100% - 40px);
@@ -59,24 +45,15 @@
 }
 
 .works-text {
-    font-weight: 500;
     font-size: 14px;
     line-height: 1.29;
-    max-width: 335px;
     margin-bottom: 40px
-}
-
-.how-list {
-    list-style: none;
-    counter-reset: list-counter;
-    padding-left: 0;
 }
 
 .how-list li {
     counter-increment: list-counter;
     position: relative;
 }
-
 
 .how-item {
     padding: 12px 24px;
@@ -86,6 +63,8 @@
     display: flex;
     align-items: center;
     gap: 24px;
+    width: 335px;
+    height: 76px;
 }
 
 .works-number-border {
@@ -129,10 +108,6 @@
 }
 
 .works-item-text {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.25;
-    letter-spacing: -0.02em;
     color: rgba(20, 20, 20, 0.6);
 }
 
@@ -150,7 +125,7 @@
 @media screen and (min-width: 375px) {
     .works-container,
     .how-red-back {
-        width: 335px;
+    width: 335px;
     }
 }
 
@@ -186,15 +161,23 @@
         margin-bottom: 50px
     }
 
+    .how-item {
+        width: 450px;
+        height: 76px;
+    }
+
     .how-item-num {
         font-size: 16px;
         line-height: 1.25
     }
 }
 
+
+
 @media screen and (min-width: 1280px) {
     .how-works {
         padding: 0;
+        height: auto;
     }
 
     .how-it-works-container {
@@ -211,7 +194,7 @@
 
     .works-red {
         width: 630px;
-        padding: 100px;
+        padding: 100px; 
         display: flex;
         justify-content: flex-start;
         margin: 0;
