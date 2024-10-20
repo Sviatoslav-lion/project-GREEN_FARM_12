@@ -7,13 +7,50 @@
 }
 */
 
+/* inter regular */
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/inter-v18-latin-regular.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+/* inter 500 */
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/inter-v18-latin-500.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+/* inter 600 */
+@font-face {
+  font-family: 'Intrt';
+  src: url('../fonts/inter-v18-latin-600.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+}
+
+/* inter 700 */
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/inter-v18-latin-700.woff2') format('woff2');
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
 body {
   font-family: "Inter Tight", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 125%;
   letter-spacing: -0.02em;
-  color: #141414; /* --text */
+  color: #141414;
+  /* --text */
 
   background-color: #fbfbfb;
 
@@ -29,12 +66,12 @@ h1 {
   font-size: 48px;
   line-height: 100%;
   letter-spacing: -0.01em;
-  
+
 }
 
 h2 {
   font-weight: 600;
-  font-size: 28px;
+  font-size: 48px;
   line-height: 100%;
   letter-spacing: -0.01em;
 }
@@ -44,39 +81,43 @@ h3 {
 }
 
 button {
-  font-family:inherit;
+  font-family: inherit;
   font-weight: 600;
   font-size: 14px;
   line-height: 129%;
   letter-spacing: -0.01em;
   text-transform: uppercase;
   text-align: center;
-  color: #7a3145; /* --background-2 */
+  color: #7a3145;
+  /* --background-2 */
 
   border-radius: 30px;
-  padding: 16px 0; /* по вертикалі - повторюється у всьому макеті, по горизонталі - задавати власноруч */
+  padding: 16px 0;
+  /* по вертикалі - повторюється у всьому макеті, по горизонталі - задавати власноруч */
   background-color: #fbfbfb;
   border: none;
-  
+
   cursor: pointer;
 }
 
 .visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
+
 .bg-violet {
   background-color: #7a3145;
   color: #fbfbfb;
 }
+
 .bg-green {
   background-color: #576f35;
   color: #fbfbfb;
@@ -85,32 +126,40 @@ button {
 
 /* Styles for Mobile devices */
 .header-base {
-  padding-top:20px;
+  padding-top: 20px;
 }
+
 .section-base {
   padding: 80px 0;
 }
+
 .footer-base {
   padding: 40px 0;
 }
+
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
   h1 {
     font-size: 76px;
   }
+
   h2 {
     font-size: 64px;
   }
+
   .header-base {
-    padding-top:32px;
+    padding-top: 32px;
   }
+
   .section-base {
     padding: 100px 0;
   }
+
   .footer-base {
     padding: 32px 0;
   }
 }
+
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1280px) {
   .footer-base {
