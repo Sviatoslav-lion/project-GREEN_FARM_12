@@ -30,7 +30,6 @@
 }
 
 .order-text {
-  font-weight: 500;
   font-size: 14px;
   line-height: 1.29;
   color: #fbfbfb;
@@ -100,10 +99,12 @@
   resize: none;
   margin-bottom: 20px;
   padding: 16px;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .order-comment:focus {
   outline: none;
   padding-left: 16px;
+  border: 1px solid #7a3145;
 }
 .order-comment::placeholder {
   font-weight: 500;
@@ -193,6 +194,7 @@
   .order-form-input::placeholder {
     font-size: 16px;
     line-height: 1.25;
+    color: #141414;
   }
   .order-form-input {
     height: 52px;
@@ -261,6 +263,16 @@
   }
   .order-form {
     max-width: 428px;
+  }
+  .order-form-input::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+    color: #141414;
+  }
+  .order-comment::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+    color: #141414;
   }
   .order-social-net {
     max-width: 528px;
