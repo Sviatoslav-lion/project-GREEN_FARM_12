@@ -1,9 +1,10 @@
+
 .advert {
     text-transform: uppercase;
 }
 
 .advert-title {
-    min-width: 355px;
+    max-width: 355px;
     border-radius: 12px;
     padding-left: 10px;
     padding-bottom: 0px;
@@ -21,12 +22,13 @@
 
 @media only screen and (min-width: 768px) {
     .advert-title {
-        min-width: 736px;
+        max-width: 736px;
         font-size: 64px;
         line-height: 1.09;
         padding-left: 17px;
         padding-bottom: 9px;
         padding-top: 8px;
+        padding-right: auto;
     }
 
     .advert-text {
