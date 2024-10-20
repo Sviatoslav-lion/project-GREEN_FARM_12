@@ -1,18 +1,23 @@
-(() => {
-  const refs = {
-    // Додати атрибут data-modal-open на кнопку відкриття
-    openModalBtn: document.querySelector('[data-menu-open]'),
-    // Додати атрибут data-modal-close на кнопку закриття
-    closeModalBtn: document.querySelector('[data-menu-close]'),
-    // Додати атрибут data-modal на бекдроп модалки
-    modal: document.querySelector('[data-menu]'),
-  };
+// Отримуємо елементи DOM
+const menuBtn = document.getElementById('menu-open-btn'); // Кнопка для відкриття меню
+const closeBtn = document.getElementById('menu-close-btn'); // Кнопка для закриття меню
+const mobileMenu = document.getElementById('mobile-menu'); // Саме меню
+const menuLinks = mobileMenu.querySelectorAll('a'); // Усі якірні посилання в меню
 
-  refs.openModalBtn.addEventListener('click', toggleModal);
-  refs.closeModalBtn.addEventListener('click', toggleModal);
+// Функція для відкриття меню
+menuBtn.addEventListener('click', function() {
+    mobileMenu.classList.add('is-open'); // Додаємо клас для відкриття меню
+});
 
-  function toggleModal() {
-    // is-open це клас який буде додаватися/забиратися на бекдроп при натисканні на кнопки
-    refs.modal.classList.toggle('is-open');
-  }
-})();
+// Функція для закриття меню
+closeBtn.addEventListener('click', function() {
+    mobileMenu.classList.remove('is-open'); // Видаляємо клас для закриття меню
+});
+
+// Додаємо подію для закриття меню при кліку на якірне посилання
+menuLinks.forEach(function(link) {
+    link.addEventListener('click', function() {
+        mobileMenu.classList.remove('is-open'); // Закриваємо меню при кліку на посилання
+    });
+});
+
