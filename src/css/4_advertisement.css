@@ -2,34 +2,70 @@
     text-transform: uppercase;
 }
 
-.advert-title-container {
+.advert-title {
+    min-width: 355px;
     border-radius: 12px;
-    padding: 8px 10px;
+    padding-left: 10px;
+    padding-bottom: 0px;
+    padding-top: 3px;
     display: inline-block;
+    line-height: 1.04;
+    width: 100%;
 }
 
-.advert-title {
-    font-size: 48px;
+.advert-text {
+    padding-top: 8px;
+    padding-left: 10px;
     line-height: 1.04;
 }
 
 @media only screen and (min-width: 768px) {
     .advert-title {
+        min-width: 736px;
         font-size: 64px;
         line-height: 1.09;
+        padding-left: 17px;
+        padding-bottom: 9px;
+        padding-top: 8px;
+    }
+
+    .advert-text {
+        padding-left: 16px;
+        padding-top: 0px;
     }
 }
 
 @media only screen and (min-width: 1280px) {   
-    .advert-title-container {
-        display: inline;
-        padding: 0;
+    .advert {
+        max-width: 1080px;
+        padding: 0px;
+        padding-right: 26px;
     }
-
+    
+    .advert-text-container {
+        display: inline;
+        max-width: 1054px;
+    }
+    
     .advert-title {
         font-size: 76px;
         line-height: 1.05;
-        max-width: 1080px;
-        margin-bottom: 0;
+        max-width: 1054px;
+        margin-bottom: 0px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 4px;
+        padding-top: 0px;
+        width: auto;
+    }
+
+    .advert-text {
+        display: inline;
+        padding-left: 0px;
+        font-size: 76px;
+        line-height: 1.05;
     }
 }
+
+
+
