@@ -1,5 +1,7 @@
 /*my sprite is correct */
-
+body {
+  background: #6d8672; /* delete */
+}
 .header-container {
   display: flex;
   justify-content: space-between;
@@ -9,10 +11,7 @@
   padding: 20px;
   font-family: 'Inter Tight', sans-serif;
   color: #fbfbfb;
-  /* background-color: transparent; 
-  position: absolute;*/
-  background-color: #997000;
-  z-index: 999;
+  background-color: transparent;
 }
 
 @media screen and (min-width: 768px) {
@@ -114,12 +113,24 @@
     line-height: 1.25;
     letter-spacing: -0.02em;
     text-align: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .menu-item:hover,
+  .menu-item:focus {
+    border: 1px solid #622133;
+    background-color: rgba(251, 251, 251, 0.3);
   }
 
   .menu-link {
     padding-top: 16px;
     padding-bottom: 16px;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
+  .menu-link:hover,
+  .menu-link:focus {
+    color: #622133;
+  }
+
   .button {
     border: none;
     border-radius: 30px;
