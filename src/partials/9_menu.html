@@ -1,30 +1,26 @@
 <header class="page-header">
-  <div class="container header-container">
-    <nav class="header-nav">
-      <a class="page-logo" href="./scr/index.html">
-        <svg class="logo" width="168" height="16">
-          <use href="../images/sprite.svg#icon-logo"></use>
+  <div class="mobile-tablet-menu is-open">
+    <div class="container menu-container">
+      <button class="menu-close-btn" type="button">
+        <svg class="menu-close-icon">
+          <use href="../images/sprite.svg#icon-close"></use>
         </svg>
-      </a>
+      </button>
+      <nav class="menu-header-nav">
+        <ul class="menu-header-nav-list">
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="#how-it-works">How It Works</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="#vegetables">Vegetables</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="#reviews">Reviews</a>
+          </li>
+        </ul>
+      </nav>
 
-      <ul class="header-nav-list">
-        <li class="header-nav-item">
-          <a class="header-nav-link" href="#how-it-works">How It Works</a>
-        </li>
-        <li class="header-nav-item">
-          <a class="header-nav-link" href="#vegetables">Vegetables</a>
-        </li>
-        <li class="header-nav-item">
-          <a class="header-nav-link" href="#reviews">Reviews</a>
-        </li>
-      </ul>
-    </nav>
-
-    <button class="header-btn" type="button">
-      <svg class="header-btn-icon" width="32" height="32">
-        <use href="../images/sprite.svg#icon-burger"></use>
-      </svg>
-      <span class="header-btn-text">Shop now</span>
-    </button>
+      <button class="menu-shop-btn" type="button">Shop now</button>
+    </div>
   </div>
 </header>
