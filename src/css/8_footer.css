@@ -1,127 +1,6 @@
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-  padding: 0;
-}
-
-ul,
-ol {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-a {
-  color: currentColor;
-  text-decoration: none;
-}
-
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
-section {
-  text-decoration: none;
-}
-body {
-  font-family: 'Inter Tight', sans-serif;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 125%;
-  text-transform: none;
-  letter-spacing: -0.02em;
-  color: #141414; /* --text */
-
-  background-color: #fbfbfb;
-
-  /*
-  min-width: 100vw;
-  min-height: 100vh;
-  */
-  margin: 0;
-}
-
-h1 {
-  font-weight: 600;
-  font-size: 48px;
-  line-height: 100%;
-  letter-spacing: -0.01em;
-}
-
-h2 {
-  font-weight: 600;
-  font-size: 28px;
-  line-height: 100%;
-  letter-spacing: -0.01em;
-}
-
-h3 {
-  font-weight: 600;
-}
-
-button {
-  font-family: inherit;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 129%;
-  letter-spacing: -0.01em;
-  text-transform: uppercase;
-  text-align: center;
-  color: #7a3145; /* --background-2 */
-
-  border-radius: 30px;
-  padding: 16px 0; /* по вертикалі - повторюється у всьому макеті, по горизонталі - задавати власноруч */
-  background-color: #fbfbfb;
-  border: none;
-
-  cursor: pointer;
-}
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-.bg-violet {
-  background-color: #7a3145;
-  color: #fbfbfb;
-}
-.bg-green {
-  background-color: #576f35;
-  color: #fbfbfb;
-}
-
 /* =========================Footer================================ */
 /* Styles for Mobile devices */
-.container {
-  min-width: 320px;
-  max-width: 375px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
-.footer-base {
-  padding: 40px 0;
-}
+
 .footer-icon {
   width: 168px;
   height: 16px;
@@ -180,13 +59,6 @@ button {
 /* =====================FOOTER END =====================*/
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-    padding: 0 32px;
-  }
-  .footer-base {
-    padding: 32px 0;
-  }
   .main-footer-box {
     display: flex;
     justify-content: space-between;
@@ -230,13 +102,6 @@ button {
 }
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-    padding: 0 100px;
-  }
-  .footer-base {
-    padding: 50px 0;
-  }
   .main-footer-box {
     margin-bottom: 125px;
   }
