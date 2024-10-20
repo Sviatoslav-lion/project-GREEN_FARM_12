@@ -77,13 +77,6 @@
     position: relative;
 }
 
-/* .how-list li::before {
-    content: counter(list-counter) "";
-    position: absolute;
-    font-weight: bold;
-} */
-
-
 
 .how-item {
     padding: 12px 24px;
