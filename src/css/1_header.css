@@ -7,8 +7,9 @@
   max-width: 375px;
   margin: 0 auto;
   padding: 20px;
-  /* font-family: 'Inter Tight', sans-serif; */
-  color: #e41111;
+  color: #fbfbfb;
+
+  background-color: #457053;
 }
 /* background-color: transparent;*/
 
@@ -22,10 +23,9 @@
 @media screen and (min-width: 1280px) {
   .header-container {
     display: block;
-
     margin-left: auto;
     margin-right: auto;
-    max-width: 1200px;
+    max-width: 1280px;
     padding: 44px 100px;
   }
 }
