@@ -6,7 +6,9 @@
     min-height: 712px;
 
 }
-
+.container{
+    width: 100vw;
+}
 
 .hero-title {
     text-transform: uppercase;
@@ -23,16 +25,17 @@
     flex: 1;
     background-repeat: no-repeat;
     background-image: url(/images/hero/mobile-hero.webp), linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2));
-    max-width: 375px;
     min-height: 370px;
+    width: 100%;
     background-position: center;
     background-size: cover;
-    }
+}
 
 @media screen and (min-resolution: 192dpi) {
     .image-content {
-        background-image: url(/images/hero/mobile-hero@2x.webp),linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2));;
-        
+        background-image: url(/images/hero/mobile-hero@2x.webp), linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2));
+        ;
+
     }
 }
 
@@ -41,14 +44,14 @@
         min-height: 768px;
         gap: 50px;
     }
-    .hero-title{
+
+    .hero-title {
         margin-bottom: 25px;
     }
 
-    .image-content{
+    .image-content {
         background-image: url(/images/hero/tablet-hero.webp),
-                linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2));
-        max-width: 768px;
+            linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2));
         min-height: 539px;
     }
 }
@@ -66,23 +69,21 @@
         flex-direction: row;
         min-height: 800px;
         gap: 28px;
-        }
+    }
 
     .hero-container {
-        
+
         margin-top: 154px;
         padding-right: 0;
         margin-right: 0;
-        
-}
-.hero-title{
-    margin-bottom: 128px;
-}
 
+    }
 
     .hero-title {
+        margin-bottom: 128px;
         width: 502px;
     }
+
 
     .hero-text {
         font-size: 16px;
@@ -90,10 +91,10 @@
         line-height: 1.25;
         width: 472px;
     }
-    .image-content{
+
+    .image-content {
         background-image: url(/images/hero/desktop-hero.webp),
-                linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2));
-        max-width: 650px;
+            linear-gradient(rgba(20, 20, 20, 0.2), rgba(20, 20, 20, 0.2));
         min-height: 800px;
         background-size: cover;
     }
