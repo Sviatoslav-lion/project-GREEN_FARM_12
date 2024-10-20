@@ -1,5 +1,6 @@
 .reviews-items {
     display: flex;
+    /* overflow: hidden; */
 }
 
 .reviews-title {
