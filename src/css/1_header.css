@@ -1,7 +1,5 @@
 /*my sprite is correct */
-body {
-  background: #6d8672; /* delete */
-}
+
 .header-container {
   display: flex;
   justify-content: space-between;
@@ -9,10 +7,10 @@ body {
   max-width: 375px;
   margin: 0 auto;
   padding: 20px;
-  font-family: 'Inter Tight', sans-serif;
-  color: #fbfbfb;
-  background-color: transparent;
+  /* font-family: 'Inter Tight', sans-serif; */
+  color: #e41111;
 }
+/* background-color: transparent;*/
 
 @media screen and (min-width: 768px) {
   .header-container {
@@ -108,10 +106,10 @@ body {
     border: 1px solid rgba(251, 251, 251, 0.4);
     border-radius: 12px;
     padding: 12px;
-    font-weight: 500;
+    /* font-weight: 500;
     font-size: 16px;
     line-height: 1.25;
-    letter-spacing: -0.02em;
+    letter-spacing: -0.02em; */
     text-align: center;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
@@ -122,8 +120,8 @@ body {
   }
 
   .menu-link {
-    padding-top: 16px;
-    padding-bottom: 16px;
+    padding-top: 13px;
+    padding-bottom: 13px;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   .menu-link:hover,
@@ -133,14 +131,14 @@ body {
 
   .button {
     border: none;
-    border-radius: 30px;
+    /* border-radius: 30px; */
     padding: 16px 32px;
     background-color: #7a3145;
-    font-weight: 600;
+    /* font-weight: 600; */
     font-size: 18px;
     line-height: 1.11111;
-    letter-spacing: -0.01em;
-    text-transform: uppercase;
+    /* letter-spacing: -0.01em;
+    text-transform: uppercase; */
     color: #fbfbfb;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
