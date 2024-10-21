@@ -134,7 +134,8 @@
 }
 
 @media screen and (min-width: 1280px) {
-    .mobile-tablet-menu {
+    .overlay {
         display: none;
     }
+    
 }
