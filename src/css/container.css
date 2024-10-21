@@ -13,16 +13,15 @@
   }
 
   .container {
-    max-width: 768px;
-    padding: 0 32px;
+    max-width: 734px;
+    padding: 0 15px;
   }
 }
 
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1280px) {
   .container {
-    max-width: 1280px;
-    padding: 0 100px;
+    max-width: 1110px;
   }
 }
 
