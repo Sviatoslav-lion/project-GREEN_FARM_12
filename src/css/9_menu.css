@@ -92,8 +92,17 @@
 
 .menu-shop-btn{
     display: block;
+    text-align: center;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+    color: #7a3145;
     border-radius: 30px;
     padding: 16px 41px;
+    margin: 0 auto;
+    margin-bottom: 40px;
     width: 155px;
     background-color: #fbfbfb;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -132,12 +141,14 @@
     }
 
     .menu-shop-btn {
+        padding: 16px 32px;
+        width: 158px;
         font-size: 18px;
         line-height: 1.11111;
     }
 }
 
-@media screen and (min-width: 1280px) {
+ @media screen and (min-width: 1280px) {
     .overlay {
         display: none;
     }
