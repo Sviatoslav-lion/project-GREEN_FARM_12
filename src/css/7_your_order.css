@@ -6,17 +6,12 @@
   margin-left: auto;
   margin-right: auto;
 }
-.your-order-container {
-  padding: 80px 20px;
-}
 .order-title-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   margin-bottom: 40px;
-  margin-left: auto;
-  margin-right: auto;
   width: 100%;
 }
 .order-section-title {
@@ -33,6 +28,7 @@
   font-size: 14px;
   line-height: 1.29;
   color: #fbfbfb;
+  letter-spacing: 0;
 }
 .order-form-wrapper {
   display: flex;
@@ -78,6 +74,7 @@
   letter-spacing: -0.02em;
   color: #141414;
   align-items: center;
+  opacity: 1;
 }
 
 .order-form-input:focus {
@@ -112,6 +109,7 @@
   line-height: 1.28571;
   letter-spacing: -0.02em;
   color: #141414;
+  opacity: 1;
 }
 .order-btn {
   border-radius: 30px;
@@ -208,6 +206,7 @@
   .order-comment::placeholder {
     font-size: 16px;
     line-height: 1.25;
+    color: #141414;
   }
   .order-btn {
     height: 52px;
@@ -236,7 +235,6 @@
 @media screen and (min-width: 1280px) {
   .container.your-order-container {
     max-width: 1280px;
-    padding: 100px;
   }
   .order-title-wrapper {
     max-width: 751px;
@@ -246,6 +244,7 @@
   }
   .order-text {
     max-width: 742px;
+    letter-spacing: 0;
   }
   .desktop-wrapper {
     display: flex;
