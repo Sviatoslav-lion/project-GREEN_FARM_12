@@ -17,12 +17,6 @@ closeBtn.addEventListener('click', function() {
     overlay.classList.remove('active');// Видаляємо клас для закриття меню та оверлею
 });
 
-// Закриття при натисканні на оверлей
-overlay.addEventListener('click', function () {
-    mobileMenu.classList.remove('is-open');
-    overlay.classList.remove('active');// Видаляємо клас для закриття меню та оверлею
-});
-
 // Додаємо подію для закриття меню при кліку на якірне посилання
 menuLinks.forEach(function(link) {
     link.addEventListener('click', function() {
