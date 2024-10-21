@@ -92,9 +92,10 @@
 
 .menu-shop-btn{
     display: block;
-    margin: 0 auto; 
+    border-radius: 30px;
+    padding: 16px 41px;
     width: 155px;
-    margin-bottom: 40px;
+    background-color: #fbfbfb;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
