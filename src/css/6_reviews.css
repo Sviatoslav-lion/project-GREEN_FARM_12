@@ -104,6 +104,7 @@
 
     .reviews-items {
         gap: 25px;
+        max-width: 1079px;
     }
 
 
