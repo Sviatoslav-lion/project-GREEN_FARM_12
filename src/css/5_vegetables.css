@@ -1,6 +1,5 @@
 
 .title-vegetables {
-    font-size: 48px;
     line-height: 1.04167;
     text-transform: uppercase;
     margin-bottom: 20px;
@@ -53,14 +52,14 @@
     .title-vegetables {
         font-size: 64px;
         line-height: 1;
-        margin-right: 196px;
+        max-width: 508px;
         margin-bottom: 50px;
     }
 
     .txt-vegetables {
         font-size: 16px;
         line-height: 1.25;
-        margin-right: 78px;
+        max-width: 626px;
         margin-bottom: 50px;
     }
 
@@ -86,12 +85,7 @@
 
 @media screen and (min-width: 1280px) {
     .title-vegetables {
-        margin-right: 454px;
         margin-bottom: 25px;
-    }
-
-    .txt-vegetables {
-        margin-right: 454px;
     }
 
     .container-card-veg {
