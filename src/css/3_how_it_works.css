@@ -11,15 +11,15 @@
 
 .how-red-back {
     position: relative;
-    width: calc(100% - 40px);
+    /* width: calc(100% - 40px); */
     margin: 0 auto;
     border-radius: 30px;
     overflow: hidden;
 }
 
-.works-red-image {
+/* .works-red-image {
     max-width: 100%;
-}
+} */
 
 .works-green-list {
     padding-top: 80px;
@@ -35,8 +35,8 @@
     line-height: 1;
     letter-spacing: -.01em;
     text-transform: uppercase;
-    color: #fbfbfb;
-    max-width: 335px;
+    /* color: #fbfbfb;
+    max-width: 335px; */
     margin-bottom: 20px;
 }
 
@@ -63,8 +63,12 @@
     display: flex;
     align-items: center;
     gap: 24px;
-    width: 335px;
-    height: 76px;
+    /* width: 335px;
+    height: 76px; */
+}
+
+.how-item:last-child {
+    margin-bottom: 0
 }
 
 .works-number-border {
@@ -108,8 +112,21 @@
 }
 
 .works-item-text {
+    
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
     color: rgba(20, 20, 20, 0.6);
+    
 }
+
+.how-two-child {
+    margin-right: 35px;
+}
+
+/* .how-three-child {
+    margin-right: 20px;
+} */
 
 .works-item-text span {
     font-weight: 700;
@@ -170,8 +187,14 @@
         font-size: 16px;
         line-height: 1.25
     }
-}
+    .works-item-text {
+        font-size: 16px;
+    }
 
+   .how-three-child {
+            margin-right: 20px;
+        }
+}
 
 
 @media screen and (min-width: 1280px) {
@@ -205,4 +228,6 @@
         max-width: 430px;
         margin-left: auto;
     }
+
+        
 }
