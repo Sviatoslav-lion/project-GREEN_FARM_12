@@ -74,6 +74,7 @@
   letter-spacing: -0.02em;
   color: #141414;
   align-items: center;
+  opacity: 1;
 }
 
 .order-form-input:focus {
@@ -108,6 +109,7 @@
   line-height: 1.28571;
   letter-spacing: -0.02em;
   color: #141414;
+  opacity: 1;
 }
 .order-btn {
   border-radius: 30px;
@@ -204,6 +206,7 @@
   .order-comment::placeholder {
     font-size: 16px;
     line-height: 1.25;
+    color: #141414;
   }
   .order-btn {
     height: 52px;
