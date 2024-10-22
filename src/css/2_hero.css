@@ -26,10 +26,10 @@
 
 .hero-text {
     max-width: 335px;
-    font-weight: 500;
+    /*font-weight: 500;*/
     font-size: 14px;
     line-height: 1.29;
-    color: #fbfbfb;
+    /*color: #fbfbfb;*/
     letter-spacing: 0;
 }
 
@@ -114,6 +114,7 @@
 
     .hero-text {
         max-width: 472px;
+        padding-right: 1px;
 
     }
 
