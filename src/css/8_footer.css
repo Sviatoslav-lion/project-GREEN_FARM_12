@@ -6,14 +6,13 @@
 .slogan-icon-box {
   padding-bottom: 40px;
 }
-.logo-a{
-/*padding-bottom: 14px;*/
+.logo-a {
+  /*padding-bottom: 14px;*/
 }
 .footer-icon {
   width: 168px;
   height: 16px;
   fill: #fbfbfb;
-  
 }
 
 .footer-slogan {
@@ -83,7 +82,7 @@
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
   .slogan-icon-box {
-    margin-bottom: 0;
+    padding-bottom: 0;
   }
   .main-footer-box {
     display: flex;
@@ -145,7 +144,6 @@
     margin-top: 0;
   }
   .footer-links {
-    margin-bottom: 0;
-    margin-right: 0;
+    padding-bottom: 0;
   }
 }
