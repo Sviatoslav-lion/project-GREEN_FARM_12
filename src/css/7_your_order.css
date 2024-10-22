@@ -169,7 +169,7 @@
 }
 @media screen and (min-width: 768px) {
   .container.your-order-container {
-    min-width: 768px;
+    max-width: 734px;
   }
   .order-section-title {
     font-size: 64px;
