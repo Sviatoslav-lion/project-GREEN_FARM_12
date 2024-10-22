@@ -1,72 +1,56 @@
-
 .advert {
     text-transform: uppercase;
 }
-
 .advert-title {
-    max-width: 355px;
-    border-radius: 12px;
-    padding-left: 10px;
-    padding-bottom: 0px;
-    padding-top: 3px;
+    position: relative;
     display: inline-block;
-    line-height: 1.04;
-    width: 100%;
-}
-
-.advert-text {
-    padding-top: 8px;
-    padding-left: 10px;
+    max-width: 100%;
     line-height: 1.04;
 }
-
+.current-green {
+    position: relative;
+    z-index: 1;
+    color: #FBFBFB;
+    display: inline-block;
+}
+.current-green::before {
+    content: '';
+    position: absolute;
+    top: -3px;
+    left: -10px;
+    right: -10px;
+    bottom: 0;
+    max-width: 355px;
+    background-color: #576F35;
+    border-radius: 12px;
+    z-index: -1;
+}
 @media only screen and (min-width: 768px) {
     .advert-title {
-        max-width: 736px;
+        max-width: 704px;
         font-size: 64px;
         line-height: 1.09;
-        padding-left: 17px;
-        padding-bottom: 9px;
-        padding-top: 8px;
-        padding-right: auto;
     }
-
-    .advert-text {
-        padding-left: 16px;
-        padding-top: 0px;
+    .current-green::before {
+        max-width: none;
+        width: 736px;
+        left: -16px;
+        right: -16px;
     }
 }
-
-@media only screen and (min-width: 1280px) {   
-    .advert {
-        max-width: 1080px;
-        padding: 0px;
-        padding-right: 26px;
-    }
-    
-    .advert-text-container {
-        display: inline;
-        max-width: 1054px;
-    }
-    
+@media only screen and (min-width: 1280px) {
     .advert-title {
         font-size: 76px;
         line-height: 1.05;
         max-width: 1054px;
-        margin-bottom: 0px;
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-bottom: 4px;
-        padding-top: 0px;
         width: auto;
     }
-
-    .advert-text {
-        display: inline;
-        padding-left: 0px;
-        font-size: 76px;
-        line-height: 1.05;
-    }
+    .current-green::before {
+        max-width: none;
+        width: 808px;
+        left: -13px;
+        right: -13px;
+          }
 }
 
 
