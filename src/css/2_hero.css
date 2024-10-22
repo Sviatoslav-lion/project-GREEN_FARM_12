@@ -1,16 +1,20 @@
 .hero-add-section {
     padding-top: 0;
     padding-bottom: 0;
+    
 }
 
 .hero-container {
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
+    gap:40px;
 }
 
 .h2text-container {
-    margin: 100px auto 40px auto;
+    padding:100px 20px 0;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 
 .hero-title {
@@ -53,6 +57,9 @@
 }
 
 @media only screen and (min-width: 768px) {
+    .hero-container{
+        gap:50px;
+    }
     
     .hero-title {
         font-size: 76px;
@@ -62,8 +69,8 @@
     }
 
     .h2text-container {
-        max-width: 704px;
-        margin: 122px auto 50px auto;
+        padding: 122px 32px 0;
+        
     }
 
 
@@ -100,10 +107,11 @@
     .hero-container {
         flex-direction: row;
         max-width: 1280px;
+        gap: 28px;
     }
 
     .h2text-container {
-        margin: 238px 28px 50px 100px;
+        padding: 238px 0 50px 100px ;
     }
 
     .hero-title {
