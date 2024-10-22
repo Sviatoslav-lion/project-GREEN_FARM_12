@@ -103,11 +103,15 @@
 
 }
 
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 1280px)
+ {
+   
     .hero-container {
         flex-direction: row;
         max-width: 1280px;
         gap: 28px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .h2text-container {
