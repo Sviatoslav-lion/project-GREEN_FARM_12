@@ -1,19 +1,23 @@
 /* =========================Footer================================ */
 /* Styles for Mobile devices */
 .main-footer-box {
-  margin-bottom: 80px;
+  padding-bottom: 80px;
 }
 .slogan-icon-box {
-  margin-bottom: 40px;
+  padding-bottom: 40px;
+}
+.logo-a{
+/*padding-bottom: 14px;*/
 }
 .footer-icon {
   width: 168px;
   height: 16px;
   fill: #fbfbfb;
-  margin-bottom: 14px;
+  
 }
 
 .footer-slogan {
+  padding-top: 14px;
   letter-spacing: 0.02em;
   max-width: 296px;
   font-weight: 400;
@@ -22,7 +26,7 @@
 }
 
 .footer-links {
-  margin-bottom: 40px;
+  padding-bottom: 40px;
   display: flex;
   flex-direction: column;
   gap: 14px;
@@ -84,27 +88,30 @@
   .main-footer-box {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 100px;
+    padding-bottom: 100px;
   }
   .footer-icon {
     width: 194px;
     height: 18px;
     fill: #fbfbfb;
-    margin-bottom: 25px;
+    /*margin-bottom: 25px;*/
   }
   .footer-slogan {
     max-width: 265px;
     font-size: 16px;
     line-height: 125%;
+    padding-top: 25px;
   }
   .menu-address-box {
     margin-top: 0;
     margin-bottom: 0;
+    width: 215px;
   }
   .footer-links {
-    margin-bottom: 64px;
+    padding-bottom: 64px;
     font-size: 32px;
-    margin-right: 38px;
+    /*margin-right: 38px;*/
+    justify-content: flex-start;
     gap: 25px;
   }
   .addres-items {
@@ -127,7 +134,7 @@
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1280px) {
   .main-footer-box {
-    margin-bottom: 125px;
+    padding-bottom: 125px;
     gap: 302px;
   }
 
