@@ -25,6 +25,7 @@
     border-radius: 12px;
     z-index: -1;
 }
+
 @media only screen and (min-width: 768px) {
     .advert-title {
         max-width: 704px;
@@ -38,6 +39,7 @@
         right: -16px;
     }
 }
+
 @media only screen and (min-width: 1280px) {
     .advert-title {
         font-size: 76px;
@@ -50,7 +52,7 @@
         width: 808px;
         left: -13px;
         right: -13px;
-          }
+    }
 }
 
 
