@@ -1,6 +1,11 @@
 /* =========================Footer================================ */
 /* Styles for Mobile devices */
-
+.main-footer-box {
+  margin-bottom: 80px;
+}
+.slogan-icon-box {
+  margin-bottom: 40px;
+}
 .footer-icon {
   width: 168px;
   height: 16px;
@@ -15,10 +20,7 @@
   font-size: 14px;
   line-height: 129%;
 }
-.menu-address-box {
-  margin-top: 40px;
-  margin-bottom: 80px;
-}
+
 .footer-links {
   margin-bottom: 40px;
   display: flex;
@@ -29,6 +31,22 @@
   line-height: 100%;
   letter-spacing: -0.01em;
 }
+
+.footer-menu-link {
+  text-align: center;
+  border-radius: 12px;
+  width: 115px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-menu-link:hover,
+.footer-menu-link:focus {
+  color: #7a3145;
+  padding: 3px;
+  background-color: #fbfbfb;
+}
+
 .addres-items {
   font-style: normal;
   display: flex;
@@ -53,9 +71,16 @@
   font-style: normal;
   color: rgba(251, 251, 251, 0.5);
 }
+.footer-other-link:focus,
+.footer-other-link:hover {
+  text-decoration: underline;
+}
 /* =====================FOOTER END =====================*/
 /* Styles for Tablet devices */
 @media only screen and (min-width: 768px) {
+  .slogan-icon-box {
+    margin-bottom: 0;
+  }
   .main-footer-box {
     display: flex;
     justify-content: space-between;
@@ -94,17 +119,22 @@
     font-size: 18px;
     line-height: 111%;
   }
+  .footer-menu-link:hover,
+  .footer-menu-link:focus {
+    padding: 6px;
+  }
 }
 /* Styles for Desktop devices */
 @media only screen and (min-width: 1280px) {
   .main-footer-box {
     margin-bottom: 125px;
+    gap: 302px;
   }
+
   .menu-address-box {
+    width: 513px;
     display: flex;
-  }
-  .menu-address-box {
-    gap: 121px;
+    justify-content: space-between;
     margin-top: 0;
   }
   .footer-links {
