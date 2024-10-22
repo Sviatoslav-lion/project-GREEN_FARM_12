@@ -1,0 +1,114 @@
+/* =========================Footer================================ */
+/* Styles for Mobile devices */
+
+.footer-icon {
+  width: 168px;
+  height: 16px;
+  fill: #fbfbfb;
+  margin-bottom: 14px;
+}
+
+.footer-slogan {
+  letter-spacing: 0.02em;
+  max-width: 296px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 129%;
+}
+.menu-address-box {
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+.footer-links {
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 100%;
+  letter-spacing: -0.01em;
+}
+.addres-items {
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  font-size: 14px;
+  line-height: 129%;
+  letter-spacing: -0.01em;
+}
+.policy-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.policy-box {
+  display: flex;
+  gap: 4px;
+}
+.wrapper-item {
+  font-size: 12px;
+  line-height: 133%;
+  letter-spacing: -0.01em;
+  font-style: normal;
+  color: rgba(251, 251, 251, 0.5);
+}
+/* =====================FOOTER END =====================*/
+/* Styles for Tablet devices */
+@media only screen and (min-width: 768px) {
+  .main-footer-box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+  }
+  .footer-icon {
+    width: 194px;
+    height: 18px;
+    fill: #fbfbfb;
+    margin-bottom: 25px;
+  }
+  .footer-slogan {
+    max-width: 265px;
+    font-size: 16px;
+    line-height: 125%;
+  }
+  .menu-address-box {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .footer-links {
+    margin-bottom: 64px;
+    font-size: 32px;
+    margin-right: 38px;
+    gap: 25px;
+  }
+  .addres-items {
+    gap: 25px;
+    font-size: 18px;
+    line-height: 111%;
+  }
+  .policy-box {
+    gap: 8px;
+  }
+  .wrapper-item {
+    font-size: 18px;
+    line-height: 111%;
+  }
+}
+/* Styles for Desktop devices */
+@media only screen and (min-width: 1280px) {
+  .main-footer-box {
+    margin-bottom: 125px;
+  }
+  .menu-address-box {
+    display: flex;
+  }
+  .menu-address-box {
+    gap: 121px;
+    margin-top: 0;
+  }
+  .footer-links {
+    margin-bottom: 0;
+    margin-right: 0;
+  }
+}
