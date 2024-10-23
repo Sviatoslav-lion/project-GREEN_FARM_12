@@ -1,6 +1,4 @@
 /*my sprite is correct */
-
-/* Абсолютне позиціонування для контейнера */
 .header-container {
   position: absolute;
   display: flex;
@@ -11,7 +9,6 @@
   margin-left: auto;
   margin-right: auto;
   padding: 0 20px;
-  color: #fbfbfb;
   z-index: 10;
   top: 20px;
   left: 50%;
@@ -36,6 +33,7 @@
     padding: 0 100px;
     top: 44px;
     border: none;
+    color: #fbfbfb;
     background-color: inherit;
   }
 }
