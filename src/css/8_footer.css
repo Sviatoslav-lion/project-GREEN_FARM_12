@@ -1,17 +1,23 @@
 /* =========================Footer================================ */
 /* Styles for Mobile devices */
+
+/*
 .main-footer-box {
   margin-bottom: 80px;
 }
 .footer-logo {
-  display: block;
+  display: block;*/
+
+.footer-logo {
+  display: flex;
+
   margin-bottom: 14px;
 }
 .footer-icon {
   display: block;
   width: 168px;
   height: 16px;
-  fill: #fbfbfb;
+  fill: #FBFBFB;
 }
 .slogan-icon-box {
   margin-bottom: 40px;
@@ -23,7 +29,9 @@
   font-size: 14px;
   line-height: 129%;
 }
-
+.menu-address-box {
+  margin-bottom: 80px;
+}
 .footer-links {
   margin-bottom: 40px;
   display: flex;
@@ -43,9 +51,9 @@
 }
 .footer-menu-link:hover,
 .footer-menu-link:focus {
-  color: #7a3145;
+  color: #7A3145;
   padding: 3px;
-  background-color: #fbfbfb;
+  background-color: #FBFBFB;
 }
 .addres-items {
   font-style: normal;
@@ -83,16 +91,15 @@
     justify-content: space-between;
     margin-bottom: 100px;
   }
-  .slogan-icon-box {
-    margin-bottom: 0;
-  }
   .footer-logo {
-    margin-bottom: 25px;
+    margin-bottom: 26px;
+
   }
   .footer-icon {
     width: 194px;
     height: 18px;
-    fill: #fbfbfb;
+    fill: #FBFBFB;
+
   }
   .footer-slogan {
     max-width: 265px;
