@@ -1,10 +1,20 @@
 /* =========================Footer================================ */
 /* Styles for Mobile devices */
+
+/*
+.main-footer-box {
+  margin-bottom: 80px;
+}
+.footer-logo {
+  display: block;*/
+
 .footer-logo {
   display: flex;
+
   margin-bottom: 14px;
 }
 .footer-icon {
+  display: block;
   width: 168px;
   height: 16px;
   fill: #FBFBFB;
@@ -83,11 +93,13 @@
   }
   .footer-logo {
     margin-bottom: 26px;
+
   }
   .footer-icon {
     width: 194px;
     height: 18px;
     fill: #FBFBFB;
+
   }
   .footer-slogan {
     max-width: 265px;
