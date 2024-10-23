@@ -1,6 +1,4 @@
 /*my sprite is correct */
-
-/* Абсолютне позиціонування для контейнера */
 .header-container {
   position: absolute;
   display: flex;
@@ -11,7 +9,6 @@
   margin-left: auto;
   margin-right: auto;
   padding: 0 20px;
-  color: #fbfbfb;
   z-index: 10;
   top: 20px;
   left: 50%;
@@ -36,6 +33,7 @@
     padding: 0 100px;
     top: 44px;
     border: none;
+    color: #fbfbfb;
     background-color: inherit;
   }
 }
@@ -148,47 +146,4 @@
   .button:focus {
     background-color: #622133;
   }
-}
-
-/* Встановлюємо відносне 
-позиціонування для контейнера hero-content 
-
-Перепровірити при злитті й видалити*/
-
-.hero-content {
-  position: relative;
-  display: flex;
-  height: 100vh;
-}
-
-.text-section {
-  flex: 1;
-  background-color: #576f35;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 50px;
-}
-
-.text-section h1 {
-  font-size: 48px;
-  margin-bottom: 20px;
-}
-
-.text-section p {
-  font-size: 18px;
-  line-height: 1.6;
-}
-
-.image-section {
-  flex: 1;
-  background-size: cover;
-  background-position: center;
-}
-
-.image-section img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
 }
